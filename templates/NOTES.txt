@@ -1,0 +1,9 @@
+------
+You should padd a RapidAPI key inline using `--set .secret.value=<APIKey>`
+*  API Key is:
+  {{ .Values.secret.apikey }}
+
+* Port forward:
+  kubectl port-forward pod/<PodName> 8080:80
+
+* Check a city: curl http://localhost:8080/london
