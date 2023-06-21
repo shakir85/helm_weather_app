@@ -83,3 +83,14 @@ affinity: {}
 
 secret:
   apikey: ''
+
+# Dependencies Values
+# Redis:
+redis:
+  auth:
+    enabled: false
+  replica:
+    replicaCount: 0
+  master:
+    persistence:
+      enabled: false

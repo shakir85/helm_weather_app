@@ -1,5 +1,5 @@
 ------
-You should padd a RapidAPI key inline using `--set .secret.value=<APIKey>`
+You should padd a RapidAPI key inline using `--set .secret.apikey=<APIKey>`
 *  API Key is:
   {{ .Values.secret.apikey }}
 
