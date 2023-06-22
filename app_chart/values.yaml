@@ -81,8 +81,12 @@ tolerations: []
 
 affinity: {}
 
+# Override this with --set .secret.apikey
 secret:
-  apikey: ''
+  apikey: 'foo'
+
+# Test imagePullPolicy Library call
+environment: "production"
 
 # Dependencies Values
 # Redis:
