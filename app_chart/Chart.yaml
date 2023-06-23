@@ -31,4 +31,4 @@ dependencies:
       parent: imported
   - name: libpolicy
     version: 0.1.0
-    repository: file://../libpolicy
+    repository: file://./libpolicy
